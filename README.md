@@ -3,5 +3,8 @@ This is the C++ function I made for MetaHuman GPT responses in Unreal Engine and
 
 
 
-https://github.com/user-attachments/assets/6866739b-c939-43d3-a4b2-c9dcf2684579
+
+
+
+https://github.com/user-attachments/assets/68ad4a52-3cb2-404c-b63d-c10bd50f2b40
 
