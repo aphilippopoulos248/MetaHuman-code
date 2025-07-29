@@ -56,7 +56,7 @@ void UOpenAIHelper::TalkToNPC(const FString &Prompt)
     }
 
     // Using OpenAI API key to access API (add your ChatGPT API key in the TEXT bracket)
-    FString OpenAIKey = TEXT("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");
+    FString OpenAIKey = TEXT("YOUR_CHATGPT_KEY");
 
     TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
 
@@ -146,7 +146,7 @@ void UOpenAIHelper::RequestElevenLabsTTS(const FString& TextToSpeak)
 {
     UE_LOG(LogTemp, Error, TEXT("Eleven Labs TTS"));
     // New HTTP request setup just for ElevenLabs (Add your ElevenLabs API key in the TEXT bracket)
-    FString ElevenLabsKey = TEXT("sk_aa229d7e26ebd7c280ecd5857f67dfd91cb2101dab466ba5");
+    FString ElevenLabsKey = TEXT("YOUR_ELEVENLABS_KEY");
     FString VoiceID = StoredVoiceID;
 
     TSharedRef<IHttpRequest> Request = FHttpModule::Get().CreateRequest();
